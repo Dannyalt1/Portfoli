@@ -16,18 +16,18 @@ section {
 }
 
 section p {
-    background: linear-gradient(45deg, rgb(199, 186, 3), #000000, #2600ff);
+    background: linear-gradient(45deg, rgb(0, 0, 0), #000000, #000000);
     background-size: 200% 200%;
     background-position: 100% 0;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     text-shadow: 2px 2px 5px rgba(77, 74, 74, 0.6), 0 0 25px rgba(255, 0, 0, 0.5);
     transition: background-position 0.5s ease-out;
-    -webkit-text-stroke: 0.2px rgb(255, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 }
 
 section p:hover {
@@ -70,7 +70,7 @@ h1 {
     line-height: 1.5;
     text-shadow: 2px 2px 5px rgba(77, 74, 74, 0.6), 0 0 25px rgba(255, 0, 0, 0.5);
     transition: background-position 0.5s ease-out;
-    -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.2px rgb(255, 0, 0);
     position: relative;
     display: inline-block;
 }
