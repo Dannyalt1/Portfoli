@@ -1,7 +1,7 @@
 body {
-    font-family: "Winky Sans", sans-serif;
-    text-transform: uppercase;
+    font-family: "Boldonse", sans-serif;
     background-color: rgb(5, 0, 20);
+    text-transform: uppercase;
     color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ section {
 }
 
 section p {
-    background: linear-gradient(45deg, rgb(0, 0, 0), #000000, #000000);
+    background: linear-gradient(45deg, rgb(187, 255, 0), #ff0000, #0011ff);
     background-size: 200% 200%;
     background-position: 100% 0;
     -webkit-background-clip: text;
@@ -25,9 +25,9 @@ section p {
     font-weight: bold;
     font-size: 1.3rem;
     line-height: 1.5;
-    text-shadow: 2px 2px 5px rgba(77, 74, 74, 0.6), 0 0 25px rgba(255, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.274), 0 0 25px rgba(255, 255, 255, 0.5);
     transition: background-position 0.5s ease-out;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
 
 section p:hover {
